@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC5D957C1ED0CE89001D7348 /* ExportProgressReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D957B1ED0CE89001D7348 /* ExportProgressReporter.swift */; };
+		FCCD33F61EC7759400AF70DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD33F51EC7759400AF70DA /* AppDelegate.swift */; };
+		FCCD33F81EC7759400AF70DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD33F71EC7759400AF70DA /* ViewController.swift */; };
+		FCCD33FA1EC7759400AF70DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCCD33F91EC7759400AF70DA /* Assets.xcassets */; };
+		FCCD33FD1EC7759400AF70DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCCD33FB1EC7759400AF70DA /* Main.storyboard */; };
+		FCCD34061EC775B200AF70DA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCCD34051EC775B200AF70DA /* AVFoundation.framework */; };
+		FCCD34081EC7BB7D00AF70DA /* OverlayVideoCompositor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD34071EC7BB7D00AF70DA /* OverlayVideoCompositor.swift */; };
+		FCCD340A1EC7BBBA00AF70DA /* OverlayVideoCompositorInstruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCCD34091EC7BBBA00AF70DA /* OverlayVideoCompositorInstruction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC5D957B1ED0CE89001D7348 /* ExportProgressReporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExportProgressReporter.swift; sourceTree = "<group>"; };
+		FCCD33F21EC7759400AF70DA /* VideoOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCD33F51EC7759400AF70DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FCCD33F71EC7759400AF70DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FCCD33F91EC7759400AF70DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FCCD33FC1EC7759400AF70DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FCCD33FE1EC7759400AF70DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCCD34051EC775B200AF70DA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FCCD34071EC7BB7D00AF70DA /* OverlayVideoCompositor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayVideoCompositor.swift; sourceTree = "<group>"; };
+		FCCD34091EC7BBBA00AF70DA /* OverlayVideoCompositorInstruction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayVideoCompositorInstruction.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FCCD33EF1EC7759400AF70DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD34061EC775B200AF70DA /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FCCD33E91EC7759400AF70DA = {
+			isa = PBXGroup;
+			children = (
+				FCCD33F41EC7759400AF70DA /* VideoOverlay */,
+				FCCD33F31EC7759400AF70DA /* Products */,
+				FCCD34041EC775B200AF70DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FCCD33F31EC7759400AF70DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD33F21EC7759400AF70DA /* VideoOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FCCD33F41EC7759400AF70DA /* VideoOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD33F51EC7759400AF70DA /* AppDelegate.swift */,
+				FCCD33F71EC7759400AF70DA /* ViewController.swift */,
+				FCCD34071EC7BB7D00AF70DA /* OverlayVideoCompositor.swift */,
+				FCCD34091EC7BBBA00AF70DA /* OverlayVideoCompositorInstruction.swift */,
+				FC5D957B1ED0CE89001D7348 /* ExportProgressReporter.swift */,
+				FCCD33F91EC7759400AF70DA /* Assets.xcassets */,
+				FCCD33FB1EC7759400AF70DA /* Main.storyboard */,
+				FCCD33FE1EC7759400AF70DA /* Info.plist */,
+			);
+			path = VideoOverlay;
+			sourceTree = "<group>";
+		};
+		FCCD34041EC775B200AF70DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCCD34051EC775B200AF70DA /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FCCD33F11EC7759400AF70DA /* VideoOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCCD34011EC7759400AF70DA /* Build configuration list for PBXNativeTarget "VideoOverlay" */;
+			buildPhases = (
+				FCCD33EE1EC7759400AF70DA /* Sources */,
+				FCCD33EF1EC7759400AF70DA /* Frameworks */,
+				FCCD33F01EC7759400AF70DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoOverlay;
+			productName = VideoOverlay;
+			productReference = FCCD33F21EC7759400AF70DA /* VideoOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FCCD33EA1EC7759400AF70DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Adam Kaplan";
+				TargetAttributes = {
+					FCCD33F11EC7759400AF70DA = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C9PLK688GP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FCCD33ED1EC7759400AF70DA /* Build configuration list for PBXProject "VideoOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FCCD33E91EC7759400AF70DA;
+			productRefGroup = FCCD33F31EC7759400AF70DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCCD33F11EC7759400AF70DA /* VideoOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FCCD33F01EC7759400AF70DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD33FA1EC7759400AF70DA /* Assets.xcassets in Resources */,
+				FCCD33FD1EC7759400AF70DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FCCD33EE1EC7759400AF70DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCCD340A1EC7BBBA00AF70DA /* OverlayVideoCompositorInstruction.swift in Sources */,
+				FCCD33F81EC7759400AF70DA /* ViewController.swift in Sources */,
+				FCCD33F61EC7759400AF70DA /* AppDelegate.swift in Sources */,
+				FCCD34081EC7BB7D00AF70DA /* OverlayVideoCompositor.swift in Sources */,
+				FC5D957C1ED0CE89001D7348 /* ExportProgressReporter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FCCD33FB1EC7759400AF70DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FCCD33FC1EC7759400AF70DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FCCD33FF1EC7759400AF70DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FCCD34001EC7759400AF70DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		FCCD34021EC7759400AF70DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9PLK688GP;
+				INFOPLIST_FILE = VideoOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r9design.VideoOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FCCD34031EC7759400AF70DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C9PLK688GP;
+				INFOPLIST_FILE = VideoOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.r9design.VideoOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FCCD33ED1EC7759400AF70DA /* Build configuration list for PBXProject "VideoOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD33FF1EC7759400AF70DA /* Debug */,
+				FCCD34001EC7759400AF70DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCCD34011EC7759400AF70DA /* Build configuration list for PBXNativeTarget "VideoOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCCD34021EC7759400AF70DA /* Debug */,
+				FCCD34031EC7759400AF70DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FCCD33EA1EC7759400AF70DA /* Project object */;
+}
